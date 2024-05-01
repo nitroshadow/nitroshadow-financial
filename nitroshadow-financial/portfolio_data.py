@@ -5,5 +5,5 @@ class PortfolioData:
 
     def __init__(self):
         print('PortfolioData')
-        connection = sqlite3.connect('./data/' + self.DATABASE_NAME)
-        cursor = connection.cursor()
+        self.connection = sqlite3.connect('./data/' + self.DATABASE_NAME)
+        self.cursor = connection.cursor()
