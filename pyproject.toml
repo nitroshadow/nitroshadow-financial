@@ -1,0 +1,15 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+name = 'nitroshadow-financial'
+version = '0.1.0'
+description = ''
+readme = 'README.md'
+requires-python = '>=3.12'
+license = {file = 'LICENSE'}
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ['/nitroshadow-financial']
